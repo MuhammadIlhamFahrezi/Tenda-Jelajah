@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenda Jelajah - Penyewaan Peralatan Outdoor</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="nama-toko">
+          <a href="index.html">
+            <span class="text-tenda">Tenda </span
+            ><span class="text-jelajah">Jelajah</span>
+          </a>
+        </h1>
+
+        <ul class="navigasi-desktop">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#daftar-alat">Daftar Alat</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+
+        <div class="tombol-bars" onclick="tampilkanMenu()">
+          <i class="fas fa-bars" id="ikon-menu"></i>
+        </div>
+
+        <ul class="navigasi-mobile" id="menu-mobile">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#daftar-alat">Daftar Alat</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda" class="background-kontainer">
+        <img
+          src="assets/images/background.png"
+          alt="Latar belakang pemandangan alam untuk petualangan outdoor"
+        />
+        <div class="overlay"></div>
+        <div class="welcome-text">
+          <h2>Selamat datang di Tenda Jelajah!</h2>
+          <h3>
+            Kami menyediakan peralatan outdoor lengkap untuk semua
+            petualanganmu.
+          </h3>
+          <button><a href="#kontak">Hubungi</a></button>
+        </div>
+      </section>
+
+      <div class="content">
+        <div class="main-content">
+          <article id="layanan" class="content-item">
+            <h2>Layanan</h2>
+            <p>
+              Di Tenda Jelajah, kami menyediakan layanan sewa perlengkapan
+              outdoor lengkap dengan pelayanan ramah dan profesional. Kami siap
+              menemani setiap petualanganmu, mulai dari camping, trekking,
+              hingga kegiatan alam lainnya
+            </p>
+            <h3>Katalog Peralatan</h3>
+            <p>
+              Kami menyediakan berbagai macam peralatan outdoor berkualitas dari
+              brand ternama dunia. Setiap produk telah melalui quality control
+              ketat untuk memastikan keamanan dan kenyamanan petualangan Anda.
+            </p>
+            <h3>Mengapa Memilih Tenda Jelajah?</h3>
+            <p>
+              Dengan pengalaman lebih dari 10 tahun melayani para petualang
+              Indonesia, kami memahami betul kebutuhan spesifik untuk kondisi
+              alam Indonesia. Tim kami terdiri dari para pecinta alam
+              berpengalaman yang siap memberikan konsultasi terbaik. Semua
+              peralatan yang kami sewakan selalu dalam kondisi prima dan telah
+              melewati inspeksi ketat sebelum disewakan. Kami juga menyediakan
+              layanan emergency support 24/7 selama masa penyewaan.
+            </p>
+          </article>
+
+          <article id="daftar-alat" class="content-item">
+            <h2>Daftar Alat</h2>
+            <div class="daftar-alat">
+              <img
+                src="assets/images/kemah.jpg"
+                alt="Tenda camping untuk 2-4 orang"
+              />
+              <div class="deskripsi-alat">
+                <h3>Tenda Camping</h3>
+                <p>
+                  Tenda ringan dan tahan cuaca untuk 2-4 orang, mudah dipasang
+                  dan dibongkar. Cocok untuk camping, trekking, atau kegiatan
+                  alam lainnya, menjaga kenyamanan dan perlindungan dari hujan
+                  dan angin.
+                </p>
+              </div>
+            </div>
+            <div class="daftar-alat">
+              <img
+                src="assets/images/slepping-bag.jpg"
+                alt="Sleeping bag hangat untuk outdoor"
+              />
+              <div class="deskripsi-alat">
+                <h3>Sleeping Bag</h3>
+                <p>
+                  Sleeping bag hangat dan nyaman, mudah digulung dan dibawa.
+                  Ideal untuk tidur di alam bebas atau saat mendaki gunung,
+                  memastikan tidurmu tetap nyenyak meski di udara dingin.
+                </p>
+              </div>
+            </div>
+            <div class="daftar-alat">
+              <img
+                src="assets/images/matras-lipat.png"
+                alt="Matras lipat untuk camping"
+              />
+              <div class="deskripsi-alat">
+                <h3>Matras / Kasur Lipat</h3>
+                <p>
+                  Matras lipat ringan dan empuk, mudah dibawa dan ditata.
+                  Memberikan kenyamanan ekstra saat tidur di tenda atau di alam
+                  terbuka, serta mudah disimpan setelah digunakan.
+                </p>
+              </div>
+            </div>
+            <div class="daftar-alat">
+              <img
+                src="assets/images/peralatan-hiking.jpg"
+                alt="Set peralatan hiking lengkap"
+              />
+              <div class="deskripsi-alat">
+                <h3>Peralatan Hiking</h3>
+                <p>
+                  Peralatan lengkap untuk trekking, termasuk ransel, trekking
+                  pole, lampu senter, kompas, dan alat esensial lainnya.
+                  Membantu perjalanan hiking tetap aman, nyaman, dan
+                  terorganisir.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside id="kontak">
+          <div class="bagian-profil">
+            <img src="assets/images/profile.jpg" alt="Profil Tenda Jelajah" />
+
+            <div class="info-profil">
+              <h3>Tenda Jelajah</h3>
+              <p><strong>Pendiri:</strong> M. Ilham Fahrezi</p>
+              <p><strong>Didirikan:</strong> 2014</p>
+              <p><strong>Lokasi:</strong> Jakarta, Indonesia</p>
+            </div>
+          </div>
+
+          <div class="informasi-kontak">
+            <h4>Informasi Kontak</h4>
+            <div class="item-kontak">
+              <strong>WhatsApp:</strong><br />
+              +62 812-3456-7890
+            </div>
+            <div class="item-kontak">
+              <strong>Email:</strong><br />
+              info@tendajelajah.com
+            </div>
+            <div class="item-kontak">
+              <strong>Alamat:</strong><br />
+              Jl. Petualang No. 123<br />
+              Jakarta Selatan, 12345
+            </div>
+            <div class="item-kontak">
+              <strong>Jam Operasional:</strong><br />
+              Senin - Sabtu: 08:00 - 18:00<br />
+              Minggu: 09:00 - 15:00
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-utama">
+        <div class="footer-toko">
+          <h2>Tenda Jelajah</h2>
+          <p>
+            Kami menyediakan peralatan outdoor lengkap untuk semua
+            petualanganmu.
+          </p>
+          <div class="sosial-media">
+            <a href="https://www.facebook.com/share/1VTbRmsX2j/"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/ilham_fahreziii"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://x.com/IzaiM80345?t=rgPO2MrPwX8dLWRmsgvPDw&s=09"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.whatsapp.com"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-toko">
+          <h2>Daftar Alat</h2>
+          <p>Tenda Camping</p>
+          <p>Sleeping Bag</p>
+          <p>Matras / Kasur Lipat</p>
+          <p>Peralatan Hiking</p>
+        </div>
+        <div class="footer-toko">
+          <h2>Kontak</h2>
+          <p>+62 812-3456-7890</p>
+          <p>info@tendajelajah.com</p>
+          <p>Jl. Petualang No. 123 Jakarta Selatan, 12345</p>
+        </div>
+      </div>
+      <div class="footer-bawah">
+        <p>&copy; 2025 Tenda Jelajah. Semua hak dilindungi.</p>
+      </div>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
