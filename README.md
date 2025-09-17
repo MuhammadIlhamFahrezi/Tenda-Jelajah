@@ -34,6 +34,9 @@ Website untuk toko Tenda Jelajah yang menyewakan peralatan outdoor seperti tenda
 2. Buka file `index.html` di browser
 3. Website langsung dapat diakses
 
+**Demo Live:**
+Website dapat diakses secara online di: https://muhammadilhamfahrezi.github.io/Tenda-Jelajah/
+
 ## Struktur File
 
 ```
